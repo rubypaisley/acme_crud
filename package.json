@@ -1,0 +1,18 @@
+{
+  "name": "acme-users-seq-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "DATABASE_URL=postgres://localhost/acme_crud nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0"
+  }
+}
