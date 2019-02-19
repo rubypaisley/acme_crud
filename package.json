@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "start:dev": "DATABASE_URL=postgres://localhost/acme_crud nodemon server.js"
   },
   "keywords": [],
